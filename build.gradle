@@ -3,5 +3,9 @@ plugins {
 }
 
 golang {
-    packagePath = 'github.com/plecuyer/gaming-backend-demo-external-api' // go import path of project to be built, NOT local file system path!
+    packagePath = 'source.developers.google.com/p/gaming-backend-demo/r/gaming-backend-demo' // go import path of project to be built, NOT local file system path!
+}
+dependencies {
+    golang {
+    }
 }
