@@ -1,4 +1,0 @@
-package mai
-
-func main() {
-}
